@@ -109,7 +109,7 @@ void eliminarNodo(Nodo *&lista,int n){
 		aux_borrar=lista;
 		//hacer el recorrido de la lista
 		while ((aux_borrar != NULL)&&(aux_borrar->dato != n)){
-			anterior =aux_borrar;
+			anterior =au x_borrar;
 			aux_borrar =aux_borrar->siguiente;
 		}
 		//elemento no encontrado
